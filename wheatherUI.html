@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wheatherUI</title>
+    <link rel="stylesheet" href="wheatherUI.css">
+</head>
+<body>
+    <div class="container center">
+        <form class="place-input" action="/" method="POST">
+            <input type="text" name="place" required="true">
+            <button type="submit" class="submit-button">
+                <img src="loupe.png" alt="">
+            </button>
+        </form>
+        <div class="wheatherCard center">
+            <div class="wheatherImage">
+                <img src="cloud.png" alt="">
+            </div>
+            <div class="place">
+                <p>Kochi</p>
+            </div>
+            <div class="temprature">
+                <p>23 cel</p>
+            </div>
+
+            <div class="tempratureRange">
+                <p>23 - 25 cel</p>
+            </div>
+            <div class="wave-animator">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
