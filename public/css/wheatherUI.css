@@ -159,3 +159,39 @@ body{
         transform:rotate(360deg);
     }
 }
+/* media quries for responsivity */
+@media (max-width:900px){
+    .wheatherCard{
+        width:25%;
+    }
+    .place-input{
+        width:20%;
+    }
+}
+@media (max-width:700px){
+    .wheatherCard{
+        width:30%;
+    }
+    .place-input{
+        width:25%;
+    }
+}
+@media (max-width:650px){
+    .wheatherCard{
+        width:35%;
+    }
+    .place-input{
+        width:30%;
+    }
+}
+@media (max-width:550px){
+    .wheatherCard{
+        max-width:none;
+        max-height:none;
+        width:70%;
+        height:60%;
+    }
+    .place-input{
+        width:60%;
+    }
+}
