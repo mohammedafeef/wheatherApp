@@ -63,6 +63,12 @@ body{
     width:100%;
 
 }
+.submit-button:focus{
+    border:none;
+}
+.submit-button:focus img{
+    width:107%;
+}
 /* wheatherCard section */
 .wheatherCard{
     flex-direction:column;
@@ -80,9 +86,10 @@ body{
 }
 .wheatherCard .wheatherImage {
     margin:3rem;
+    margin-bottom:12rem;
 }
 .wheatherImage img{
-    width:7rem;
+    width:11rem;
     animation:buffering 1s linear  alternate infinite;
 }
 .wheatherCard .temprature{
@@ -119,7 +126,7 @@ body{
     width:40rem;
     height:40rem;
     position:absolute;
-    animation:wave-rotation 2s alternate linear infinite;
+    animation:wave-rotation 4s alternate linear infinite;
     background-color: rgba(255,255,255);
     z-index:0;
 }
